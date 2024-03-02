@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63697B62B937CB100929ABC /* UserModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669FC312B937B7600604E3D /* UserModelTest.swift */; };
+		A63697B72B937CDC00929ABC /* BaseRequestSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669FC2F2B937B6F00604E3D /* BaseRequestSpy.swift */; };
+		A63697B82B937CF400929ABC /* Users_data.json in Resources */ = {isa = PBXBuildFile; fileRef = A669FC2C2B937B6800604E3D /* Users_data.json */; };
+		A669FC332B937B9A00604E3D /* Users_data.json in Resources */ = {isa = PBXBuildFile; fileRef = A669FC2C2B937B6800604E3D /* Users_data.json */; };
 		A687C8902B90E79700DF4C1F /* HGQuandooUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A687C88F2B90E79700DF4C1F /* HGQuandooUsersApp.swift */; };
 		A687C8922B90E79700DF4C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A687C8912B90E79700DF4C1F /* ContentView.swift */; };
 		A687C8942B90E79900DF4C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A687C8932B90E79900DF4C1F /* Assets.xcassets */; };
 		A687C8972B90E79900DF4C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A687C8962B90E79900DF4C1F /* Preview Assets.xcassets */; };
-		A687C8A12B90E79A00DF4C1F /* HGQuandooUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A687C8A02B90E79A00DF4C1F /* HGQuandooUsersTests.swift */; };
 		A687C8BF2B90F10F00DF4C1F /* Users in Frameworks */ = {isa = PBXBuildFile; productRef = A687C8BE2B90F10F00DF4C1F /* Users */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A687C89D2B90E79A00DF4C1F /* PBXContainerItemProxy */ = {
+		A669FC3C2B937C3600604E3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A687C8842B90E79700DF4C1F /* Project object */;
 			proxyType = 1;
@@ -26,17 +29,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A669FC2C2B937B6800604E3D /* Users_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users_data.json; sourceTree = "<group>"; };
+		A669FC2F2B937B6F00604E3D /* BaseRequestSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestSpy.swift; sourceTree = "<group>"; };
+		A669FC312B937B7600604E3D /* UserModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModelTest.swift; sourceTree = "<group>"; };
+		A669FC382B937C3600604E3D /* HGQuandooUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGQuandooUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A687C88C2B90E79700DF4C1F /* HGQuandooUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGQuandooUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A687C88F2B90E79700DF4C1F /* HGQuandooUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGQuandooUsersApp.swift; sourceTree = "<group>"; };
 		A687C8912B90E79700DF4C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A687C8932B90E79900DF4C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A687C8962B90E79900DF4C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A687C89C2B90E79A00DF4C1F /* HGQuandooUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGQuandooUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A687C8A02B90E79A00DF4C1F /* HGQuandooUsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGQuandooUsersTests.swift; sourceTree = "<group>"; };
 		A687C8B92B90E7CB00DF4C1F /* Users */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Users; path = ../Users; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A669FC352B937C3600604E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A687C8892B90E79700DF4C1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,22 +57,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A687C8992B90E79A00DF4C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A669FC2B2B937B6800604E3D /* Fixture */ = {
+			isa = PBXGroup;
+			children = (
+				A669FC2C2B937B6800604E3D /* Users_data.json */,
+			);
+			path = Fixture;
+			sourceTree = "<group>";
+		};
+		A669FC2E2B937B6F00604E3D /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				A669FC2F2B937B6F00604E3D /* BaseRequestSpy.swift */,
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		A669FC392B937C3600604E3D /* HGQuandooUsersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A669FC312B937B7600604E3D /* UserModelTest.swift */,
+				A669FC2E2B937B6F00604E3D /* Spy */,
+				A669FC2B2B937B6800604E3D /* Fixture */,
+			);
+			path = HGQuandooUsersTests;
+			sourceTree = "<group>";
+		};
 		A687C8832B90E79700DF4C1F = {
 			isa = PBXGroup;
 			children = (
 				A687C8B92B90E7CB00DF4C1F /* Users */,
 				A687C88E2B90E79700DF4C1F /* HGQuandooUsers */,
-				A687C89F2B90E79A00DF4C1F /* HGQuandooUsersTests */,
+				A669FC392B937C3600604E3D /* HGQuandooUsersTests */,
 				A687C88D2B90E79700DF4C1F /* Products */,
 				A687C8BD2B90F10E00DF4C1F /* Frameworks */,
 			);
@@ -70,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A687C88C2B90E79700DF4C1F /* HGQuandooUsers.app */,
-				A687C89C2B90E79A00DF4C1F /* HGQuandooUsersTests.xctest */,
+				A669FC382B937C3600604E3D /* HGQuandooUsersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,14 +125,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A687C89F2B90E79A00DF4C1F /* HGQuandooUsersTests */ = {
-			isa = PBXGroup;
-			children = (
-				A687C8A02B90E79A00DF4C1F /* HGQuandooUsersTests.swift */,
-			);
-			path = HGQuandooUsersTests;
-			sourceTree = "<group>";
-		};
 		A687C8BD2B90F10E00DF4C1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A669FC372B937C3600604E3D /* HGQuandooUsersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A669FC3E2B937C3700604E3D /* Build configuration list for PBXNativeTarget "HGQuandooUsersTests" */;
+			buildPhases = (
+				A669FC342B937C3600604E3D /* Sources */,
+				A669FC352B937C3600604E3D /* Frameworks */,
+				A669FC362B937C3600604E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A669FC3D2B937C3600604E3D /* PBXTargetDependency */,
+			);
+			name = HGQuandooUsersTests;
+			productName = HGQuandooUsersTests;
+			productReference = A669FC382B937C3600604E3D /* HGQuandooUsersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A687C88B2B90E79700DF4C1F /* HGQuandooUsers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A687C8B02B90E79A00DF4C1F /* Build configuration list for PBXNativeTarget "HGQuandooUsers" */;
@@ -132,24 +173,6 @@
 			productReference = A687C88C2B90E79700DF4C1F /* HGQuandooUsers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A687C89B2B90E79A00DF4C1F /* HGQuandooUsersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A687C8B32B90E79A00DF4C1F /* Build configuration list for PBXNativeTarget "HGQuandooUsersTests" */;
-			buildPhases = (
-				A687C8982B90E79A00DF4C1F /* Sources */,
-				A687C8992B90E79A00DF4C1F /* Frameworks */,
-				A687C89A2B90E79A00DF4C1F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A687C89E2B90E79A00DF4C1F /* PBXTargetDependency */,
-			);
-			name = HGQuandooUsersTests;
-			productName = HGQuandooUsersTests;
-			productReference = A687C89C2B90E79A00DF4C1F /* HGQuandooUsersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,12 +183,12 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					A687C88B2B90E79700DF4C1F = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					A687C89B2B90E79A00DF4C1F = {
+					A669FC372B937C3600604E3D = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = A687C88B2B90E79700DF4C1F;
+					};
+					A687C88B2B90E79700DF4C1F = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -185,31 +208,42 @@
 			projectRoot = "";
 			targets = (
 				A687C88B2B90E79700DF4C1F /* HGQuandooUsers */,
-				A687C89B2B90E79A00DF4C1F /* HGQuandooUsersTests */,
+				A669FC372B937C3600604E3D /* HGQuandooUsersTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A669FC362B937C3600604E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63697B82B937CF400929ABC /* Users_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A687C88A2B90E79700DF4C1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A687C8972B90E79900DF4C1F /* Preview Assets.xcassets in Resources */,
 				A687C8942B90E79900DF4C1F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A687C89A2B90E79A00DF4C1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A669FC332B937B9A00604E3D /* Users_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A669FC342B937C3600604E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63697B62B937CB100929ABC /* UserModelTest.swift in Sources */,
+				A63697B72B937CDC00929ABC /* BaseRequestSpy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A687C8882B90E79700DF4C1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,25 +253,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A687C8982B90E79A00DF4C1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A687C8A12B90E79A00DF4C1F /* HGQuandooUsersTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A687C89E2B90E79A00DF4C1F /* PBXTargetDependency */ = {
+		A669FC3D2B937C3600604E3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A687C88B2B90E79700DF4C1F /* HGQuandooUsers */;
-			targetProxy = A687C89D2B90E79A00DF4C1F /* PBXContainerItemProxy */;
+			targetProxy = A669FC3C2B937C3600604E3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A669FC3F2B937C3700604E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8SS8BRWWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.Quandoo.Users.HGQuandooUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGQuandooUsers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HGQuandooUsers";
+			};
+			name = Debug;
+		};
+		A669FC402B937C3700604E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8SS8BRWWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.Quandoo.Users.HGQuandooUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGQuandooUsers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HGQuandooUsers";
+			};
+			name = Release;
+		};
 		A687C8AE2B90E79A00DF4C1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,49 +477,18 @@
 			};
 			name = Release;
 		};
-		A687C8B42B90E79A00DF4C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8SS8BRWWP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.Quandoo.Users.HGQuandooUsersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGQuandooUsers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HGQuandooUsers";
-			};
-			name = Debug;
-		};
-		A687C8B52B90E79A00DF4C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8SS8BRWWP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.Quandoo.Users.HGQuandooUsersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGQuandooUsers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HGQuandooUsers";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A669FC3E2B937C3700604E3D /* Build configuration list for PBXNativeTarget "HGQuandooUsersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A669FC3F2B937C3700604E3D /* Debug */,
+				A669FC402B937C3700604E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A687C8872B90E79700DF4C1F /* Build configuration list for PBXProject "HGQuandooUsers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -472,15 +503,6 @@
 			buildConfigurations = (
 				A687C8B12B90E79A00DF4C1F /* Debug */,
 				A687C8B22B90E79A00DF4C1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A687C8B32B90E79A00DF4C1F /* Build configuration list for PBXNativeTarget "HGQuandooUsersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A687C8B42B90E79A00DF4C1F /* Debug */,
-				A687C8B52B90E79A00DF4C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
